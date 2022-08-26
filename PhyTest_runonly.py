@@ -300,7 +300,7 @@ def main():
             ilc_ilc.K_r_hat = -ilc_ilc.G_r * ys * np.transpose(xp - x_ref) * P * B_ref_d * Ts + ilc_ilc.K_r_hat
             # ilc_ilc.P = np.matrix('1 0; 0 1')
             # ilc_ilc.Kx_hat = ilc_ilc.Kx_hat
-            # ilc_ilc.Kr_hat = ilc_ilc.Kr_hat
+            # ilc_ilc.Kr_hat = ilc_ilc.Kr_h
 
 
             if steps % (SIM_FPS // RENDER_FPS) == 0:
